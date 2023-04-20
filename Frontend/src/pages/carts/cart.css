@@ -1,0 +1,17 @@
+.fa-trash:hover{
+    cursor: pointer;
+}
+.cards{
+    background-color: rgb(255, 255, 255);
+}
+
+.cartitem{
+    -webkit-box-shadow: 0 0 10px #000000;
+        box-shadow: 0 0 10px #000000;
+        border-radius: 10px;
+}
+
+button.btn{
+    border-radius: 10px;
+    color: black;
+}

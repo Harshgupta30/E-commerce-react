@@ -1,0 +1,12 @@
+button.btn-secondary{
+    width: 7vw;
+    position:absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.sellerbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

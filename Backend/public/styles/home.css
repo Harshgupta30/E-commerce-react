@@ -1,0 +1,266 @@
+
+body{
+     font-family: 'Open Sans', sans-serif;
+     background-image: url('../2593042.jpg');
+     /* background-repeat: no-repeat; */
+      background-size:cover;
+}
+.head{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:aliceblue;
+    background-color:rgb(83, 77, 77);
+    margin-bottom: 10px;
+}
+
+.new{
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(206, 200, 200);
+}
+.newcsv{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-right: 30px;
+  align-items: center;
+  color: rgb(206, 200, 200);
+}
+input{
+    margin: 5px;
+    border-radius: 3px;
+    border: none
+}
+
+input:focus{
+    outline: none;
+}
+.btn{
+    padding: 5px 7px 5px 7px;
+    
+}
+.p-item{
+    padding:3em 10em 3em 10em;
+}
+img{
+    margin: 10px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+.items{
+    margin-top: 10px;
+    box-shadow: 1px 2px 2px 3px rgb(40, 40, 49);
+    background-color: rgb(43, 37, 37);
+    color: white;
+    padding: 15px 10px 15px 10px;
+    transition: transform .8s; 
+    border-radius: 10px;
+}
+.items:hover{
+  transform: scale(1.05);
+}
+a{
+    color: white;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+.description{
+    padding: 10px 15px 10px 15px;
+}
+img:hover{
+  transition: .7s;
+  transform: scale(1.1);
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  .cart{
+    width: 7rem;
+    display: inline-block;
+    color: aliceblue;
+    background-color: #28a745;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.removecart{
+  width: 10rem;
+  display: inline-block;
+  color: aliceblue;
+  background-color: #6c757d;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+  /* Popup arrow */
+ .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  .plus,.minus{
+    height: 80%;
+    padding: 2px 6px 4px 6px;
+  }
+  .btn:hover{
+    cursor: pointer;
+  }
+
+  #next,#prev:hover{
+    cursor: pointer;
+  }
+
+
+ @media screen and (max-width: 800px) {
+  .p-item{
+    padding:2em 7em 2em 7em;
+  }
+  .items{
+    padding: 12px 8px 12px 8px;
+  }
+  h3{
+    font-size: 1.4rem;
+  }
+   h4{
+    font-size: .7rem;
+   }
+   h5{
+    font-size: .6rem;
+   }
+   .popup{
+    font-size: .6rem;
+   }
+   .cart{
+    width: 3.5rem;
+    padding: 0.3rem 0.55rem;
+   font-size: .5rem;
+  }
+  .removecart{
+    width: 5rem;
+    padding: 0.3rem 0.55rem;
+   font-size: .5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .p-item{
+    padding:1em 5em 1em 5em;
+  }
+  .items{
+    padding: 10px 6px 10px 6px;
+  }
+  h3{
+    font-size: 1.2rem;
+  }
+  h4{
+   font-size: .7rem;
+  }
+  h5{
+   font-size: .5rem;
+  }
+  .popup{
+   font-size: .5rem;
+  }
+  .cart{
+   width: 3rem;
+   padding: 0.25rem 0.47rem;
+  font-size: .4rem;
+ }
+ .removecart{
+  width: 4rem;
+  padding: 0.2.5rem 0.47rem;
+ font-size: .4rem;
+}
+}
+@media screen and (max-width: 400px) {
+  .p-item{
+    padding:.7em 3em .7em 3em;
+  }
+  .items{
+    padding: 8px 4px 8px 4px;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  h4{
+   font-size: .5rem;
+  }
+  h5{
+   font-size: .4rem;
+  }
+  .popup{
+   font-size: .4rem;
+  }
+  .cart{
+   width: 2rem;
+   padding: 0.25rem 0.47rem;
+  font-size: .2rem;
+ }
+ .removecart{
+  width: 4rem;
+  padding: 0.2.5rem 0.47rem;
+ font-size: .3rem;
+}
+}

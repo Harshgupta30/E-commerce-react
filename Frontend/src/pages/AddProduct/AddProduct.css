@@ -1,0 +1,65 @@
+.round{
+    border: 1px solid #ccc;
+    width: 80%;
+      border-radius: 5px;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    height: 25px;
+}
+.round:focus{
+    outline: none;
+    
+}
+hr{
+    margin: 3rem;
+    border: 2px solid rgb(85, 78, 78);
+}
+.form-label{
+    margin: .5rem;
+    width: 100%;
+}
+.adminform{
+    border-radius: 20px;
+    background-color: rgb(255, 254, 254);
+    padding: 2rem;
+    width: 50%;
+    border: 1px solid #ccc;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+.add{
+    margin-top: 10px;
+    margin-left: 35%;
+    width: 30%;
+}
+
+@media screen and (max-width:650px){
+    .form-label{
+        font-size: .75rem;
+    }
+    .form{
+        padding: .5rem;
+    }
+    .round{
+        height: 20px;
+    }
+    .add{
+        font-size: 12px;
+        margin-left: 35%;
+        width: 40%;
+    }
+}
+@media screen and (max-width:450px){
+    .form-label{
+        font-size: .55rem;
+
+    }
+    .form{
+        padding: .25rem;
+    }
+    .add{
+        font-size: 8px;
+        margin-left: 35%;
+        width: 50%;
+    }
+}
